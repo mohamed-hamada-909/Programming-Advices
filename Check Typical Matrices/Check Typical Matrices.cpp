@@ -60,7 +60,7 @@ int main()
 	cout << "\n Matrix 2: \n";
 	PrintMatrix(arr2, 3, 3);
 
-	if (AreTypicalMatrices(arr, arr, 3, 3))
+	if (AreTypicalMatrices(arr, arr2, 3, 3))
 	{
 		cout << "\nYES: both martices are typical.\n";
 	}
